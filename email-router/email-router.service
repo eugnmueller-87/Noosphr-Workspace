@@ -1,0 +1,15 @@
+[Unit]
+Description=Email Router - Noosphr
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/email-router
+ExecStart=/usr/bin/python3 /opt/email-router/email_router.py
+Restart=always
+RestartSec=10
+EnvironmentFile=/opt/email-router/.env
+
+[Install]
+WantedBy=multi-user.target
