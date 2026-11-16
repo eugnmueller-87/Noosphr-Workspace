@@ -6,7 +6,7 @@
 ![VPS](https://img.shields.io/badge/VPS-Hetzner-D50C2D?style=flat&logo=hetzner&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
-Internal AI tooling for **Noosphr** — an AI technology company building intelligent products and automation systems.
+Internal AI tooling for **Noosphr**, an AI technology company building intelligent products and automation systems.
 
 This workspace contains production tools that power day-to-day operations at Noosphr.
 
@@ -20,11 +20,11 @@ This workspace contains production tools that power day-to-day operations at Noo
 
 | Feature | Detail |
 |---|---|
-| Classification | Claude AI (Haiku) — understands context, not just keywords |
+| Classification | Claude AI (Haiku) understands context, not just keywords |
 | Channels | `#business`, `#support`, `#spam` |
 | Reply | One-click reply button in every Slack notification |
 | Inbox | Hostinger IMAP (`imap.hostinger.com`) |
-| Hosting | Systemd service on Hetzner VPS — runs 24/7 |
+| Hosting | Systemd service on Hetzner VPS (runs 24/7) |
 | Fallback | Keyword-based routing if Claude API is unavailable |
 
 **How it works:**
@@ -60,4 +60,4 @@ venv/bin/python3 email_router.py
 
 ---
 
-*Built and maintained by [Eugen Mueller](https://github.com/eugnmueller-87) — Noosphr*
+*Built and maintained by [Eugen Mueller](https://github.com/eugnmueller-87), Noosphr*
